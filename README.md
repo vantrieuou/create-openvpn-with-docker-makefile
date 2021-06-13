@@ -20,11 +20,13 @@ Register theo link phía sau để nhận được $100 in credit [Digital Ocean
 > ![SSH Key](./imgs/2remmeberusing_ssh.png)
 
 
-### 2. Copy .env từ **.env.example, thêm cấu hình cho phù hợp.
+### 2. Copy (.env) từ (.env.example), thêm cấu hình cho phù hợp.
 >![Config .env](./imgs/3config_evironment.png)
 
 ### 3. Mở Terminal lên run (make init) để tạo OpenVPN server.
->**Các thao tác là tự động, ngoại trừ việc nhập Pass Phrase**
+>**Các thao tác là tự động, ngoại trừ việc nhập Pass Phrase**. 
+> Chú ý: PassPhrase cần được nhập bằng tay nhiều lần khi khởi tạo cũng như generate client certificate (step 4). 
+> Nếu nhập sai PassPhrase ở step nào thì cần làm lại step đó.
 >![Initialize OpenVPN server](./imgs/4make_init.png)
 >![Input Pass Phrase](./imgs/5passphrase.png)
 
